@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Produce Training Data For Deep Learning
+qgisMinimumVersion=3.0
+description=The plugin fragments the remote sensing image, to be used as deep learning training datasets.
+version=0.1
+author=Pratyush Tripathy
+email=pratkrt@gmail.com
+
+about=Deep learning has achieved unprecedented accuracy in a variety of fields, including remote sensing. But not every remote sensing professional has a strong programming background, which is the required skill for practising deep learning. While enough material and sample code for deep learning applications are available in online repositories, pre-processing the remote sensing datasets to reach the training stage is still a tedious task and requires programming knowledge. Proprietary options to pre-process the data only on mouse clicks are available. However, access to such licensed software is often expensive and hence limited for a large population of researchers and practitioners. The plugin bridges the gap by enabling users to generate training samples in the form of image chips for deep learning application.
+
+tracker=https://github.com/PratyushTripathy/QGIS-Plugin-Produce-Training-Samples-For-Deep-Learning/issues
+repository=https://github.com/PratyushTripathy/QGIS-Plugin-Produce-Training-Samples-For-Deep-Learning
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/produce_training_data_for_deep_learning" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
