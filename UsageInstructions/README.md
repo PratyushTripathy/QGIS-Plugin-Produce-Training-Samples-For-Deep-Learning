@@ -1,9 +1,14 @@
-**Mandatory:**<br/>
+### **Available combinations in the plugin:** ###
+* Export labelled tiles to see whether a feature is present or not in image chips
+* Export mask tiles to trace the footprint of the feature in image chips
+* Export tiles with the center pixel value of the classified raster as the label
+
+### **Mandatory:** ###
  * Input Image (Multispectral raster, at least three bands)<br/>
  * Input Label (classified raster, single band)<br/>
  * Export Directory (where the image chips folder will be created)<br/>
- 
-**Options:**
+  
+### **Options:** ###
  * **Class Value** - 
    * If the class value is *Null*, non-zero values will be converted to 1 and considered as the label value. The center pixel feature will be optional.
    * If class value is an integer or float, it will be converted to integer to be considered as label. The center pixel feature will be disabled in this case.
@@ -19,7 +24,3 @@
    * When JPG format is opted and **Equalise Histogram** is checked, the input image is converted to 8-bit data.
    * TIFF format exports all the bands in the input raster. **Equalise Histogram** option will be disabled. Original values of the raster will be exported.
    
-**Available combinations in the plugin:**<br/>
-* Export labelled tiles to see whether a feature is present or not in image chips
-* Export mask tiles to trace the footprint of the feature in image chips
-* Export tiles with the center pixel value of the classified raster as the label
