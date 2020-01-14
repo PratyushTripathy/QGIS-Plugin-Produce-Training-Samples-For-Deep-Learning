@@ -5,5 +5,5 @@ The below screenshot shows generated training samples for identifying industrial
 <img src="PluginScreen.jpg" height="482" width="655">
 
 
-Want to understand full potential of the plugin? read [here](https://github.com/PratyushTripathy/QGIS-Plugin-Produce-Training-Samples-For-Deep-Learning/tree/master/UsageInstructions). Feel free to report bugs and get support. Suggestions for additional features are most welcomed.<br/>
+Want to understand full potential of the plugin? read [here](/UsageInstructions). Feel free to report bugs and get support. Suggestions for additional features are most welcomed.<br/>
 Email: pratkrt@gmail.com
