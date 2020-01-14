@@ -12,3 +12,7 @@
  * If class value is null and center pixel is checked, all the non-zero values will be converted to 1 and will be considered as the label value. Label type can can only be labelled tiles.<br/>
  * If class value is an integer or float, it will be converted to integer to be considered as label. The center pixel option will be disabled in this case. Label type can either be labelled tiles or mask pairs.<br/>
 
+
+ ## 1. Export labelled tiles to see whether a feature is present or not in image chips ##
+ ## 2. Export mask tiles to trace the footprint of the feature in image chips ##
+ ## 3. Export tiles with the center pixel value of the classified raster as the label ##
