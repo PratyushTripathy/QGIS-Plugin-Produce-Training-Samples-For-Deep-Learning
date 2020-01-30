@@ -10,7 +10,7 @@
 name=Produce Training Data For Deep Learning
 qgisMinimumVersion=3.0
 description=The plugin fragments the remote sensing image, to be used as deep learning training datasets.
-version=0.2
+version=0.4
 author=Pratyush Tripathy
 email=pratkrt@gmail.com
 
@@ -23,7 +23,7 @@ repository=https://github.com/PratyushTripathy/QGIS-Plugin-Produce-Training-Samp
 # Recommended items:
 
 # Uncomment the following line and add your changelog:
- changelog= Added homepage. Removed temporary files.
+ changelog= Masked pairs in JPEG format now export 0 and 255 values, earlier it was 0 and 1.
 
 # Tags are comma separated with spaces allowed
 tags=Python, Deep Learning
