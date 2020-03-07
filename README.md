@@ -6,8 +6,8 @@ Curious to understand functionalities of the plugin? read [here](/UsageInstructi
 Email: pratkrt@gmail.com
 
 NOTE:
- * The plugin was developed on a Windows 8.1 operating system.
- * If you screenresolution is too high and you can not see the plugin window properly.
+ * The plugin was originally developed on a Windows 8.1 operating system.
+ * If you screen resolution is too high and you can not see the plugin window properly, you may want to change the QGIS scaling factor in your computer's environment path variables.
 
 The below screenshot shows generated training samples for identifying industrial buildings in high-resolution (1.6m) satellite image.<br/>
 
