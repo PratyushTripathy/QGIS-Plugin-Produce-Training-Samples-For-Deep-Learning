@@ -5,13 +5,17 @@ Deep learning has achieved unprecedented accuracy in a variety of fields, includ
 Curious to understand functionalities of the plugin? read [here](/UsageInstructions). The plugin can be downloaded from inside the QGIS application, make sure you have checked the experimental plugin box in the settings. Feel free to report bugs and get support. Suggestions for additional features are most welcomed.<br/>
 Email: pratkrt@gmail.com
 
-NOTE:
- * The plugin was originally developed on a Windows 8.1 operating system.
- * If you screen resolution is too high and you can not see the plugin window properly, you may want to change the QGIS scaling factor in your computer's environment path variables.
-
 The below screenshot shows generated training samples for identifying industrial buildings in high-resolution (1.6m) satellite image.<br/>
 
 <img src="PluginScreen.jpg" height="482" width="655">
 
-
-
+NOTE:
+ * The plugin was originally developed on a Windows 8.1 operating system.
+ * If you screen resolution is too high and you can not see the plugin window properly, you may want to change the QGIS scaling factor in your computer's environment path variables. For windows you can use this from the command prompt shell:
+```
+setx QT_AUTO_SCREEN_SCALE_FACTOR 2
+```
+Later if you wish to roll back, set the scale factor back to one using this:
+```
+setx QT_AUTO_SCREEN_SCALE_FACTOR 1
+```
