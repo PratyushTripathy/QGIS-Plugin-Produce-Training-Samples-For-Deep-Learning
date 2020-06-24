@@ -7,6 +7,7 @@
  * Input Image (Multispectral raster, at least three bands)<br/>
  * Input Label (classified raster, single band)<br/>
  * Export Directory (where the image chips folder will be created)<br/>
+ * Check that the two rasters have the same extent, projection, cell size and number of rows and columns.<br/>
   
 ### **Options:** ###
  * **Class Value** - 
