@@ -25,7 +25,8 @@ from PyQt5.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
 from PyQt5.QtGui import QIcon, QFont
 from PyQt5.QtWidgets import QAction, QFileDialog, QListWidgetItem
 
-import os, time, gdal
+import os, time
+from osgeo import gdal
 from .dataGeneratorDeepLearning8 import dataGeneratorClass
 # Initialize Qt resources from file resources.py
 from .resources import *
