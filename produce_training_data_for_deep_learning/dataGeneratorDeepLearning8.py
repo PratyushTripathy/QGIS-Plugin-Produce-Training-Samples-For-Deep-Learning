@@ -1,4 +1,5 @@
-import os, gdal, math
+import os, math
+from osgeo import gdal
 import numpy as np
 
 # This function is called when the dependencies are not present
