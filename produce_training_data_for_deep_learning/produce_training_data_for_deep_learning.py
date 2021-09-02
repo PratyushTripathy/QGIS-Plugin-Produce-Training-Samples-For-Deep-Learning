@@ -26,7 +26,10 @@ from PyQt5.QtGui import QIcon, QFont
 from PyQt5.QtWidgets import QAction, QFileDialog, QListWidgetItem
 
 import os, time
-from osgeo import gdal
+try:
+    import gdal
+except:
+    from osgeo import gdal
 from .dataGeneratorDeepLearning8 import dataGeneratorClass
 # Initialize Qt resources from file resources.py
 from .resources import *
