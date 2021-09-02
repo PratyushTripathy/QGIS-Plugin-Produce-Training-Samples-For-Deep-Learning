@@ -1,6 +1,9 @@
 import os, math
-from osgeo import gdal
 import numpy as np
+try:
+    import gdal
+except:
+    from osgeo import gdal
 
 # This function is called when the dependencies are not present
 def firstTimeRun():
