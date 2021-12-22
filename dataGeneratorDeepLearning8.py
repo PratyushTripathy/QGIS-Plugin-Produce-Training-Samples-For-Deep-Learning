@@ -89,7 +89,7 @@ class dataGeneratorClass():
     def generateFeaturesLabelArray(self):
         for n, file in enumerate(self.inputFiles):
             ds = gdal.Open(file)
-            self.ds = raster.createDS(ds)
+            self.ds = raster._create_ds(ds)
             # If it the first file, create the numpy array, else concatenate to the existing array
             if n == 0:
                 features = ds.ReadAsArray()
